@@ -1,0 +1,6 @@
+
+Usage: glsl-testify [file]
+
+Takes a testable GLSL shader as input, spawning a temporary browser
+window and runs the tests without any uniforms. Outputs TAP, so
+you can pass this on to other testing tools to deal with the results.

@@ -1,0 +1,51 @@
+{
+  "name": "glsl-testify",
+  "version": "1.0.0",
+  "description": "Test your GLSL shaders using GLSL!",
+  "main": "index.js",
+  "bin": {
+    "glsl-testify": "./runner/bin.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "browserify runner/client.js | uglifyjs -cm --ascii | indexhtmlify > runner/bundle.html"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "dependencies": {
+    "a-big-triangle": "0.0.0",
+    "canvas-pixels": "0.0.0",
+    "concat-stream": "^1.4.6",
+    "gl-context": "^0.1.0",
+    "gl-shader": "^3.0.0",
+    "glsl-deparser": "^1.0.0",
+    "glsl-parser": "^1.0.1",
+    "glsl-tokenizer": "^1.1.1",
+    "new-from": "0.0.3",
+    "opener": "^1.3.0",
+    "shoe": "0.0.15",
+    "split": "^0.3.0",
+    "through2": "^0.5.1"
+  },
+  "devDependencies": {
+    "browserify": "^4.2.1",
+    "indexhtmlify": "^1.2.0",
+    "uglify-js": "^2.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/glsl-testify.git"
+  },
+  "keywords": [
+    "glsl",
+    "gl-modules",
+    "webgl",
+    "shader",
+    "test",
+    "tap",
+    "output"
+  ],
+  "homepage": "https://github.com/hughsk/glsl-testify",
+  "bugs": {
+    "url": "https://github.com/hughsk/glsl-testify/issues"
+  }
+}
