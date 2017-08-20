@@ -1,6 +1,8 @@
-# glsl-testify [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+# glsl-testify [![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)
 
 [![NPM](https://nodei.co/npm/glsl-testify.png)](https://nodei.co/npm/glsl-testify/)
+
+**Depreacted (for now): fun idea, but needs a better execution.**
 
 Test your GLSL shaders using GLSL!
 
